@@ -17,4 +17,4 @@ from dashboard import app
 
 
 if __name__ == "__main__":
-    app.run(threaded=app.config["THREADED"], debug=app.debug)
+    app.run(host='0.0.0.0', threaded=app.config["THREADED"], debug=app.debug)
